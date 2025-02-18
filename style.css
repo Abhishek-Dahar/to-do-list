@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font-1:"Montserrat", serif;
+   --font-2:"Monda", serif;
+}
+body{
+    box-sizing: border-box;
+    background-image: linear-gradient(to left,#071952,#0599f0);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+    
+  
+}
+.container{
+    background-color: rgba(255,255,255,0.25);
+    box-shadow: 0px 16px 32px 0 rgba(31,38, 135, 0.37) inset; 
+    border: 1px solid rgba(255,255,255,0.18);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+}
+h1{
+    font-family: var(--font-2);
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+    
+    
+    width: 500px;
+    height: 100%;
+    
+    
+}
+#task-input {
+    flex: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-family: var(--font-1);
+    font-weight: 500;
+    font-size: 15px;
+    border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+outline: none;
+border: none;
+border: 1px solid ,#0599f0;
+}
+#add-task-btn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #05a3ff;
+    color: #fff;
+    text-align: center;
+    outline: none;
+border: none;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 10px 15px;
+cursor: pointer;
+text-transform: capitalize;
+font-family: var(--font-1);
+font-weight: 500;
+font-size: 15px;
+}
+#add-task-btn:hover{
+    opacity: 0.6;
+}
+#task-list{
+    list-style: none;
+    padding: 0;
+}
+.task-item{
+   
+    color: #FFF;
+    font-family: var(--font-2);
+    text-transform: capitalize;
+    font-size: 19px;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 16px 32px 0 rgba(31,38, 135, 0.37) inset; 
+    border-radius: 10px;
+    margin-top: 10px;
+    border-top: 1px solid pink;
+  
+}
+
