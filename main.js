@@ -20,7 +20,7 @@ function createElement(taskText) {
   li.classList.add("task-item");
   li.textContent = taskText;
 li.addEventListener("dblclick",()=>{
-    li.remove(taskList)
+    li.remove() 
 })
 
   return li;
